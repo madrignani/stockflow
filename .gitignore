@@ -38,3 +38,6 @@ Thumbs.db
 # Documents and notes
 docs/assignment.docx
 docs/notes.txt
+
+# First admin insertion
+database/admin-user-data.sql

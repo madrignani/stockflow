@@ -1,9 +1,10 @@
 <?php
 
+
 namespace App\Enums;
 
-enum UserRole: string
-{
+
+enum UserRole: string {
     case Admin = 'admin';
     case Employee = 'employee';
 }
