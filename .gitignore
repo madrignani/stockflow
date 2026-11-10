@@ -9,7 +9,6 @@ _ide_helper.php
 /.zed
 
 # Dependencies
-node_modules
 frontend/node_modules
 /vendor
 
@@ -41,4 +40,4 @@ docs/assignment.docx
 docs/notes.txt
 
 # First admin insertion
-database/admin-user-data.sql
+database/admin_user_data.sql
