@@ -1,0 +1,10 @@
+/*////////////////////////////     PRESENTATION AND CSS VARIABLES      /////////////////////////////////*/
+
+
+@font-face {
+    font-family: 'Open Sans Variable';
+    src: url('./font/OpenSans-VariableFont.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
