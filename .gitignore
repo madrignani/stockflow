@@ -4,7 +4,6 @@
 
 # Dependencies
 frontend/node_modules
-vendor
 backend/vendor
 
 # Enviroment variables
