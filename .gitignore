@@ -1,21 +1,14 @@
 # IDE
-.phpactor.json
-_ide_helper.php
-/.codex
-/.cursor/
-/.idea
-/.nova
 /.vscode
 /.zed
 
 # Dependencies
 frontend/node_modules
-/vendor
+vendor
+backend/vendor
 
 # Enviroment variables
-.env
-.env.backup
-.env.production
+backend/.env
 /auth.json
 
 # Laravel (Logs, Cache, Storage e Builds)
