@@ -9,7 +9,8 @@ _ide_helper.php
 /.zed
 
 # Dependencies
-/node_modules
+node_modules
+frontend/node_modules
 /vendor
 
 # Enviroment variables

@@ -5,6 +5,6 @@ namespace App\Enums;
 
 
 enum MovementType: string {
-    case In = 'in';
-    case Out = 'out';
+    case In = 'entry';
+    case Out = 'exit';
 }
