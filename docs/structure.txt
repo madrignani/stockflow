@@ -1,0 +1,147 @@
+\---stockflow
+    |   .gitattributes
+    |   .gitignore
+    |   LICENSE
+    |   README.md
+    |   
+    +---.vscode
+    |       mcp.json
+    |       
+    +---backend
+    |   |   .editorconfig
+    |   |   .env
+    |   |   .env.example
+    |   |   artisan
+    |   |   boost.json
+    |   |   composer.json
+    |   |   composer.lock
+    |   |   phpunit.xml
+    |   |   
+    |   +---app
+    |   |   +---Enums
+    |   |   |       MovementType.php
+    |   |   |       UserRole.php
+    |   |   |       
+    |   |   +---Http
+    |   |   |   \---Controllers
+    |   |   |           AuthenticationController.php
+    |   |   |           Controller.php
+    |   |   |           
+    |   |   +---Models
+    |   |   |       Category.php
+    |   |   |       Movement.php
+    |   |   |       Product.php
+    |   |   |       User.php
+    |   |   |       
+    |   |   \---Providers
+    |   |           AppServiceProvider.php
+    |   |           
+    |   +---bootstrap
+    |   |   |   app.php
+    |   |   |   providers.php
+    |   |   |   
+    |   |   \---cache
+    |   |           .gitignore
+    |   |           packages.php
+    |   |           services.php
+    |   |           
+    |   +---config
+    |   |       app.php
+    |   |       auth.php
+    |   |       cache.php
+    |   |       cors.php
+    |   |       database.php
+    |   |       filesystems.php
+    |   |       logging.php
+    |   |       mail.php
+    |   |       queue.php
+    |   |       sanctum.php
+    |   |       services.php
+    |   |       session.php
+    |   |       
+    |   +---database
+    |   |   |   admin-user-data.sql
+    |   |   |   
+    |   |   +---factories
+    |   |   |       UserFactory.php
+    |   |   |       
+    |   |   +---migrations
+    |   |   |       0001_01_01_000000_create_users_table.php
+    |   |   |       0001_01_01_000001_create_cache_table.php
+    |   |   |       0001_01_01_000002_create_jobs_table.php
+    |   |   |       2026_11_04_123900_create_categories_table.php
+    |   |   |       2026_11_04_123927_create_products_table.php
+    |   |   |       2026_11_04_123934_create_movements_table.php
+    |   |   |       2026_11_04_174852_create_personal_access_tokens_table.php
+    |   |   |       
+    |   |   \---seeders
+    |   |           CategorySeeder.php
+    |   |           DatabaseSeeder.php
+    |   |           
+    |   +---public
+    |   |   |   .htaccess
+    |   |   |   favicon.ico
+    |   |   |   fonts-manifest.dev.json
+    |   |   |   hot
+    |   |   |   index.php
+    |   |   |   robots.txt
+    |   |   |   
+    |   |   \---build
+    |   |       |   fonts-manifest.json
+    |   |       |   manifest.json
+    |   |       |   
+    |   |       \---assets
+    |   |               app-BvRk9kiK.js
+    |   |               app-Duj7KjND.css
+    |   |               fonts-C9MNnjVw.css
+    |   |               instrument-sans-400-normal-D1W7dsQl.woff
+    |   |               instrument-sans-400-normal-DRC__1Mx.woff2
+    |   |               instrument-sans-500-normal-Dk9ku72i.woff2
+    |   |               instrument-sans-500-normal-Z6ESRlEs.woff
+    |   |               instrument-sans-600-normal-B7fBEWYG.woff2
+    |   |               instrument-sans-600-normal-B9e8oLYv.woff
+    |   |               
+    |   +---routes
+    |   |       api.php
+    |   |       console.php
+    |   |       web.php
+    |   |       
+    |   +---tests
+    |   |   |   Pest.php
+    |   |   |   TestCase.php
+    |   |   |   
+    |   |   +---Feature
+    |   |   |       ExampleTest.php
+    |   |   |       
+    |   |   \---Unit
+    |   |           ExampleTest.php
+    |   |           
+    |                       
+    +---docs
+    |       assignment.docx
+    |       assignment.pdf
+    |       notes.txt
+    |       structure.txt
+    |       
+    \---frontend
+        |   .npmrc
+        |   index.html
+        |   login.html
+        |   package.json
+        |   pnpm-lock.yaml
+        |   tsconfig.json
+        |   
+        +---src
+        |   +---controllers
+        |   |       authentication-controller.ts
+        |   |       
+        |   \---views
+        |           login-view-html.ts
+        |           login-view.ts
+        |           login.ts
+        |           
+        \---style
+            |   login-style.css
+            |   
+            \---font
+                    OpenSans-VariableFont.ttf

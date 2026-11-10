@@ -1,6 +1,5 @@
 # IDE
 /.vscode
-/.zed
 
 # Dependencies
 frontend/node_modules
@@ -8,24 +7,17 @@ backend/vendor
 
 # Enviroment variables
 backend/.env
-/auth.json
 
 # Laravel (Logs, Cache, Storage e Builds)
-*.log
-.phpunit.result.cache
-/.phpunit.cache
-/public/build
-/public/fonts-manifest.dev.json
-/public/hot
-/public/storage
-/storage/*.key
-/storage/pail
-Homestead.json
-Homestead.yaml
-
-# OS
-.DS_Store
-Thumbs.db
+backend/*.log
+backend/.phpunit.result.cache
+backend/.phpunit.cache
+backend/public/build
+backend/public/fonts-manifest.dev.json
+backend/public/hot
+backend/public/storage
+backend/storage/*.key
+backend/storage/pail
 
 # Documents and notes
 docs/assignment.docx
