@@ -132,16 +132,22 @@
         |   tsconfig.json
         |   
         +---src
-        |   +---controllers
-        |   |       authentication-controller.ts
-        |   |       
-        |   \---views
-        |           login-view-html.ts
-        |           login-view.ts
-        |           login.ts
-        |           
-        \---style
-            |   login-style.css
-            |   
-            \---font
-                    OpenSans-VariableFont.ttf
+            +---config
+            |       api-route.ts
+            |       
+            +---controllers
+            |       authentication-controller.ts
+            |       
+            +---helpers
+            |       normalize-messages.ts
+            |       
+            +---infra
+            |       service-error.ts
+            |       
+            +---services
+            |       authentication-service.ts
+            |       
+            \---views
+                    login-view-html.ts
+                    login-view.ts
+                    login.ts
